@@ -39,7 +39,15 @@ body {
   background: #fff; color: var(--principale); border-radius: 30px;
   text-decoration: none; font-weight: 600;
 }
-
+.badge {
+  display: inline-block;
+  margin-bottom: 14px;
+  padding: 4px 14px;
+  border-radius: 20px;
+  background: #E8641E;
+  color: #fff;
+  font-weight: 700;
+}
 /* Blocs de contenu */
 .bloc { max-width: 1000px; margin: auto; padding: 60px 20px; }
 .bloc h2 { color: var(--principale); margin-bottom: 18px; border-left: 5px solid var(--accent); padding-left: 12px; }
